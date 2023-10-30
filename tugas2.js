@@ -3,7 +3,7 @@ const bahasaIndonesia = 90
 const bahasaInggris = 89
 const ipa = 69
 
-// Validasi: Memastikan semua nilai diisi
+// Validasi: Memastikan semua nilai diisi (isNaN artinya is not number)
 if (isNaN(mtk) || isNaN(bahasaIndonesia) || isNaN(bahasaInggris) || isNaN(ipa)) {
     console.log("Semua nilai harus diisi");
   } else {
@@ -28,7 +28,7 @@ if (isNaN(mtk) || isNaN(bahasaIndonesia) || isNaN(bahasaInggris) || isNaN(ipa)) 
   
     // Menampilkan hasil
     if (grade) {
-      console.log(`Rata-rata: ${rataRata.toFixed(2)}`);
+      console.log(`Rata-rata: ${rataRata}`);
       console.log(`Grade: ${grade}`);
     }
   }
