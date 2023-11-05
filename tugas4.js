@@ -22,5 +22,10 @@ let newData = {
     hobby: ['badminton','game'],
   };
 
+  console.log(newData)
+  
 //soal 2
-const { address: { street, city } } = data;
+// bisa dengan code
+const {street, suite} = data.address
+// const { address: { street, city } } = data;
+console.log(street)

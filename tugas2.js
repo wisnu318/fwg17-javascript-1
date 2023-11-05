@@ -4,7 +4,7 @@ const bahasaInggris = 89
 const ipa = 69
 
 // Validasi: Memastikan semua nilai diisi (isNaN artinya is not number)
-if (isNaN(mtk) || isNaN(bahasaIndonesia) || isNaN(bahasaInggris) || isNaN(ipa)) {
+if (typeof mtk !== 'number' && typeof bahasaIndonesia !== 'number' && typeof bahasaInggris !== 'number' && typeof ipa !== 'number') {
     console.log("Semua nilai harus diisi");
   } else {
     // Menghitung rata-rata
